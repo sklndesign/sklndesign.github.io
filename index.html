@@ -1,1 +1,79 @@
-hello world
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>DSTRY_CAM</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+           <span id="logo">DSTRY_CAM</span>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <span class="separador">/</span>
+                <li><a href="#slide2">WTF IS IT?</a></li>
+                <span class="separador">/</span>
+                <li><a href="#slide4">DOWNLOAD</a></li>
+                <span class="separador">/</span>
+				<li><a href="#about">ABOUT</a></li>
+            </ul>
+             <span id="botonencender" class="ion-navicon-round"></span>
+        </nav>
+        <span id="botonapagar" class="ion-navicon-round"></span>
+    </header>
+    
+<!--    <audio autoplay loop src="VHSaudio.mp3"></audio>-->
+    
+	<video autoplay loop id="bgvid">	
+	<source src="VHSvideo.mp4" type="video/mp4">
+	</video>
+	<div class="container" id="home">
+		<div class="content">
+			<h1>DSTRY_CAM</h1>	
+		</div>	
+	</div>
+	<div class="container" id="slide2">
+		<div class="content">
+			<h2>NORMAL<br>IS<br>BORING</h2>
+		</div>	
+	</div>
+	<div class="container" id="slide3">
+		<div class="content">
+		    <p>SO, DESTROY YOUR PHOTOS</p>
+			<img src="iPhonemockup.png" alt="">	
+		</div>	
+    </div>
+    <div class="container" id="slide4">
+		<div class="content">
+		    <p>COMING SOON</p>
+			<img src="Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="">	
+		</div>	
+    </div>
+	<div class="container" id="about">
+		<div class="content">
+			<p>FOLLOW US!!</p>
+			<span class="ion-social-twitter"></span>
+			<span class="ion-social-facebook"></span>
+			<span class="ion-social-instagram"></span>
+		</div>	
+	</div>
+	
+	<script> 
+            $("#menu").hide();
+            
+            $("#botonencender").click(function(){
+            $("#menu").hide();
+            });
+            
+            $("#botonapagar").click(function(){
+            
+            $("#menu").show();
+            });
+</script>
+</body>
+</html>
