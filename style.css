@@ -16,7 +16,7 @@
 	text-decoration: none;
 }
 
-html,body {
+html, body {
 	width: 100%;
 	height: 100%;
     position: relative;
@@ -34,6 +34,7 @@ header {
     top: 2%;
     left: 2%;
     -webkit-filter: blur(1.5px);
+    filter: blur(1.5px);
 }
 
 header nav ul li {
@@ -55,6 +56,7 @@ span.separador {
 	margin: 0;
 	color: white;
 	-webkit-filter: blur(1px);
+    filter: blur(1px);
 }
 
 header nav ul {
@@ -69,6 +71,7 @@ header nav ul {
     right:2%;
     top: 2%;
     -webkit-filter: blur(1px);
+    filter: blur(1px);
     margin: 0;
     padding: 0;
     z-index: 999;
@@ -81,6 +84,7 @@ header nav ul {
     right:2%;
     top: 2%;
     -webkit-filter: blur(1px);
+    filter: blur(1px);
     margin: 0;
     padding: 0;
     color: white;
@@ -91,6 +95,7 @@ span#logo {
 	font-size: 36px;
 	margin-right: 0;
 	-webkit-filter: blur(1px);
+    filter: blur(1px);
 }
 
 
@@ -109,6 +114,7 @@ video#bgvid {
 
 h1, h2{
 	-webkit-filter: blur(2px);
+    filter: blur(1px);
 	font-size: 120px;
 }
 
@@ -133,7 +139,7 @@ p {
 	
 	font-size: 60px;
 	-webkit-filter: blur(2px);
-	filter: blur(2px;)
+	filter: blur(2px);
 }
 
 span {
@@ -151,6 +157,7 @@ span {
 	font-size: 120px;
 	color: rgb(0,255,0);
 	-webkit-filter: blur(2px);
+    filter: blur(2px);
 	margin-right: 50px;
     text-decoration: none;
 }
@@ -159,6 +166,9 @@ span {
 	margin-right: 0;
 }
 
+#icons {
+    margin-top: 50px;
+}
 
 @media all and (max-width: 768px){
     #bgvid {
@@ -171,14 +181,7 @@ span {
 }
 
 
-
-#icons {
-    margin-top: 50px;
-}
-
-
-
-@media all and (max-width: 1080px) {
+@media all and (max-width: 1150px) {
 	#menu {
         font-size: 30px;
     }
@@ -194,7 +197,7 @@ span {
     }
 }
 
-@media all and (max-width: 690px){
+@media all and (max-width: 768px){
     #menu ul li {
         display: block;
     }
@@ -205,6 +208,19 @@ span {
     
     h1, h2 {
         font-size: 70px;
+        text-align: center;
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
+    }
+    p {
+        font-size: 30px;
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
+    }
+    #icons a {
+        font-size: 70px;
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
     }
 }
 
