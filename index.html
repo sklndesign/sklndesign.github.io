@@ -2,7 +2,8 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>DSTRY_CAM</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SKLNDESIGN</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="style.css">
@@ -12,68 +13,96 @@
 <body>
     <header>
         <nav id="menu">
-           <span id="logo">DSTRY_CAM</span>
+           <span id="logo">SKLNDESIGN</span>
             <ul>
                 <li><a href="#home">HOME</a></li>
                 <span class="separador">/</span>
-                <li><a href="#slide2">WTF IS IT?</a></li>
+                <li><a href="#wtf">WTF IS THIS?</a></li>
                 <span class="separador">/</span>
-                <li><a href="#slide4">DOWNLOAD</a></li>
+                <li><a href="#skills">SKILLS</a></li>
                 <span class="separador">/</span>
-				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#contact">CONTACT</a></li>
             </ul>
              <span id="botonencender" class="ion-navicon-round"></span>
         </nav>
         <span id="botonapagar" class="ion-navicon-round"></span>
     </header>
     
-<!-- <audio autoplay loop src="VHSaudio.mp3"></audio> -->
+<!--<audio autoplay loop src="VHSaudio.mp3"></audio>-->
     
 	<video autoplay loop id="bgvid">	
 	<source src="VHSvideo.mp4" type="video/mp4">
 	</video>
 	<div class="container" id="home">
 		<div class="content">
-			<h1>DSTRY_CAM</h1>	
+			<h1>SKLNDESIGN</h1>	
 		</div>	
 	</div>
-	<div class="container" id="slide2">
+	<div class="container" id="wtf">
 		<div class="content">
-			<h2>NORMAL<br>IS<br>BORING</h2>
+			<h2>HELLO</h2>
 		</div>	
 	</div>
-	<div class="container" id="slide3">
+	<div class="container" id="wtf2">
 		<div class="content">
-		    <p>SO, DESTROY YOUR PHOTOS</p>
-			<img src="iPhonemockup.png" alt="">	
+			<h2>MY NAME<br>IS<br>MARIO NAVAS</h2>
 		</div>	
-    </div>
-    <div class="container" id="slide4">
+	</div>
+	<div class="container" id="wtf3">
 		<div class="content">
-		    <p>COMING SOON</p>
-			<img src="Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="">	
+			<h2>I'M A<br>FRONT END<br>DEVELOPER</h2>
 		</div>	
-    </div>
-	<div class="container" id="about">
+	</div>
+	<div class="container" id="wtf3">
 		<div class="content">
-			<p>FOLLOW US!!</p>
-			<span class="ion-social-twitter"></span>
-			<span class="ion-social-facebook"></span>
-			<span class="ion-social-instagram"></span>
+			<h2>26 YEARS OLD<br>BASED IN<br>MÁLAGA,SPAIN</h2>
+		</div>	
+	</div>
+	<div class="container" id="skills">
+		<div class="content">
+          <h2>MY SKILLS ARE</h2>
+		  <p><br>HTML5+CSS3+JS<br>PHP+MYSQL<br>BOOTSTRAP<br>WORDPRESS<br>IONIC FRAMEWORK<BR>ADOBE SUITE</p>
+		</div>	
+	</div>
+	<div class="container" id="skills2">
+		<div class="content">
+          <h2>WHAT CAN I DO<br>FOR YOU?</h2>
+		  <p><br><span>></span> WEB DESIGN (UI/UX)<br><span>></span> LANDING PAGE<br><span>></span> RESPONSIVE SITE<br><span>></span> ONLINE SHOP<br><span>></span> MOBILE APP<br><span>></span> COMMUNITY MANAGEMENT<br><span>></span> MARKETING SEO/SEM<br> (GOOGLE ADWORDS)<br><span>></span> GRAPHIC DESIGN</p>
+		</div>	
+	</div>
+	<div class="container" id="contact">
+		<div class="content">
+          <h2>FOR MORE<br>INFORMATION</h2>
+            <p><br><a href="mailto:mario.navas@me.com">MARIO.NAVAS@ME.COM</a></p>
+		</div>	
+	</div>
+	<div class="container" id="social">
+		<div class="content">
+			<h2>FOLLOW ME<h2>
+			<div id="icons">
+                <a href="http://linkedin.com/in/marionavassaez" target="_blank" class="ion-social-linkedin"></a>
+                <a href="http://fb.com/mario.navas" target="_blank" class="ion-social-facebook"></a>
+                <a href="http://instagram.com/_skln" target="_blank" class="ion-social-instagram"></a>
+			     
+			</div>
+			
 		</div>	
 	</div>
 	
-	<script> 
+	<script>
+        $(document).ready(function() {
+    
             $("#menu").hide();
             
             $("#botonencender").click(function(){
-            $("#menu").hide();
+                $("#menu").hide();
             });
             
             $("#botonapagar").click(function(){
-            
-            $("#menu").show();
+                $("#menu").show();
             });
-</script>
+            
+        });
+    </script>
 </body>
 </html>

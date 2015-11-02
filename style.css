@@ -112,6 +112,10 @@ h1, h2{
 	font-size: 120px;
 }
 
+h1 {
+    color: rgb(0,255,0);
+}
+
 .container {
   	display: table;
   	width: 100%;
@@ -132,37 +136,27 @@ p {
 	filter: blur(2px;)
 }
 
-/*.content #slide3 {
-    vertical-align: bottom;
-}*/
-
-.content img {
-    width: 35%;
-}
-
-#slide3 img {
-	margin-top: 2%;
-}
-
-#slide4 img {
-	width: 30%;
-	margin-top: 5%;
-}
-
 span {
+    color: rgb(0,255,0);
+    margin: 0;
+    padding: 0;
+}
+
+#contact a, #contact a:visited {
+    text-decoration: none;
+    color: rgb(0,255,0);
+}
+
+#social a, #social a:visited {
 	font-size: 120px;
 	color: rgb(0,255,0);
 	-webkit-filter: blur(2px);
 	margin-right: 50px;
+    text-decoration: none;
 }
 
-span:last-child {
+#social a:last-child {
 	margin-right: 0;
-}
-
-#about p {
-	margin-bottom: 5%;
-	margin-left:25px;
 }
 
 
@@ -178,7 +172,9 @@ span:last-child {
 
 
 
-
+#icons {
+    margin-top: 50px;
+}
 
 
 
